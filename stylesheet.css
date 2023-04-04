@@ -1,0 +1,34 @@
+body{
+    background-color: mediumvioletred;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-image: url(https://i.pinimg.com/originals/6a/23/30/6a2330e2ed77ec9df2075b222e5aa87f.gif);
+    background-size: 1500px 1400px;
+}
+
+div{
+    font-family: 'Courier New', Courier, monospace;
+    color: mediumvioletred;
+    text-align: center;
+    font-size: 200px;
+    text-shadow: 5px 5px black;
+}
+h1{
+    color: blueviolet;
+    position: absolute;
+    font-size: 15px;
+    right: 450px;
+}
+iframe{
+    float: right;
+    float: left;
+    position: absolute;
+    right: 400px;
+}
+h2{
+    color: white;
+    position: absolute;
+    left: 50px;
+    text-shadow: 2px 2px red;
+}
