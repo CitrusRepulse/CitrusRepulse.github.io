@@ -1,0 +1,14 @@
+body{
+    background-color: aquamarine;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    animation: colorChange 8s infinite;
+}
+
+  @keyframes colorChange {
+  0% { background-color: red; }
+  25% { background-color: blue; }
+  50% { background-color: green; }
+  75% { background-color: yellow; }
+  100% { background-color: red; }
+}
+

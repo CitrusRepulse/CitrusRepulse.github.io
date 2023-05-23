@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(57, 205, 49);
+    padding: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div {
+    position: relative;
+    z-index: 1;
+  }
+  
+  button {
+    position: relative;
+    z-index: 2;
+}
+
+.listabilar_div{
+    background-color: whitesmoke;
+    margin: 1.2rem;
+    width: 50%;
+    border-radius: 1.2rem;
+    padding: 0.6rem;
+}
+
+h1 {
+    margin: 0.2rem;
+}
+.your-text-class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 100px;
+    animation: Textanimation 3s infinite;
+  }
+  
+
+  @keyframes Textanimation {
+    0% {
+      transform: rotate(-15deg);
+    }
+    50% {
+      transform: rotate(15deg);
+    }
+    100% {
+      transform: rotate(-15deg);
+    }
+  }

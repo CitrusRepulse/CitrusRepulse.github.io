@@ -1,0 +1,54 @@
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    text-shadow: black 2px 2px;
+  }
+  
+  button {
+    margin-top: 20px;
+  }
+  body {
+    background: linear-gradient(to right, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8f00ff);
+    background-size: 1500% 1500%;
+    animation: rainbow 10s ease infinite;
+    overflow: hidden;
+  }
+  
+  @keyframes rainbow {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .image-container {
+    width: 100%;
+    max-width: 600px; /* adjust to your desired size */
+    margin: 0 auto;
+    position: relative;
+    animation: move-image 2s ease-in-out infinite alternate;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @keyframes move-image {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(50%);
+    }
+  }
